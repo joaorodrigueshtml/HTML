@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+
+body{
+    background-image: linear-gradient(to left,#F4442E,#BC5F04,#874000,#2B0504,#010001);
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1800px;
+    margin: 10px auto;
+    padding: 100px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    
+}
+li{
+    display: inline-block;
+    margin: 30px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #B33F00;
+    transition: 0.3s all;
+
+}
+#contato{
+    border: 2px solid #B33F00;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+#contato:hover{
+    background-color: #B33F00;
+    color: black;
+
+}
+form{
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+h1{
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-right: 10px;
+
+}
+
+h2{
+    font-size: 56px;
+    line-height: 18px;
+}
+
+p{
+    line-height: 20px;
+    max-width: 1800px;
+}
+form [type="submit"]{
+
+    height: 60px;
+    width: 50%;
+    background-color:#B33F00 ;
+    color: white;
+
+}
+form [type="submit"]:hover{
+background-color: #B33F00;
+cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+
+}
+
+#imagem{
+    
+    padding-left: 700px;
+    
+}
